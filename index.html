@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="scss/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<title>Cards</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1 class="header__title">Все мои объявления</h1>
+			<hr>
+			<div class="all-list">
+				<select id="list-ads">
+					<option>Все объявления</option>
+					<option>Активные</option>
+					<option>Архив</option>
+					<option>Черновики</option>
+				</select>
+				<select id="sort">
+					<option value="sort-asc">Цена по возрастанию</option>
+					<option value="sort-desc">Цена по убыванию</option>
+					<option value="sort-rating">По популярности</option>
+				</select>
+			</div>
+			<div class="clearfix"></div>
+		</header>
+		<main class="page">
+			<section class="products__list">
+				<div class="product__item item"  data-price="6799" data-rating="3">
+					<div class="slider">
+						<div><img class="item__img" src="/img/dexp1.png" alt="img"></div>
+						<div><img class="item__img" src="/img/dexp2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/dexp3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор DEXP</h2>
+						<h4 class="description__price">6799₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+
+				<div class="product__item item"  data-price="10199" data-rating="5">
+					<div class="slider">
+						<div><img class="item__img" src="/img/samsung1.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/samsung2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/samsung3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор Samsung</h2>
+						<h4 class="description__price">10199₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+
+				<div class="product__item item"  data-price="26999" data-rating="1">
+					<div class="slider">
+						<div><img class="item__img" src="/img/aoc1.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/aoc2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/aoc3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор Asus</h2>
+						<h4 class="description__price">26999₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+
+				<div class="product__item item"  data-price="7999" data-rating="6">
+					<div class="slider">
+						<div><img class="item__img" src="/img/hp1.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/hp2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/hp3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор HP</h2>
+						<h4 class="description__price">7999₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+
+				<div class="product__item item"  data-price="5899" data-rating="2">
+					<div class="slider">
+						<div><img class="item__img" src="/img/dell1.png" alt="img"></div>
+						<div><img class="item__img" src="/img/dell2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/dell3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор Dell</h2>
+						<h4 class="description__price">5899₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+
+				<div class="product__item item" data-price="11999" data-rating="7">
+					<div class="slider">
+						<div><img class="item__img" src="/img/lg1.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/lg2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/lg3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор LG</h2>
+						<h4 class="description__price">11999₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+
+				<div class="product__item item" data-price="12399" data-rating="8">
+					<div class="slider">
+						<div><img class="item__img" src="/img/acer1.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/acer2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/acer3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор  Acer</h2>
+						<h4 class="description__price">12399₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+
+				<div class="product__item item" data-price="17999" data-rating="4">
+					<div class="slider">
+						<div><img class="item__img" src="/img/msi1.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/msi2.jpg" alt="img"></div>
+						<div><img class="item__img" src="/img/msi3.jpg" alt="img"></div>
+					</div>
+					<div class="item__description description">
+						<h2 class="description__tittle">Монитор MSI</h2>
+						<h4 class="description__price">17999₽</h4>
+						<div class="description__text-block">
+							<p class="description__text">Осталось 20 дней</p>
+							<p class="description__text">Санкт-Петербург, ст. м. Маяковская</p>
+							<p class="description__text">Тип задания: одноэтапное</p>
+							<p class="description__text">Тип публикации: горящее</p>
+						</div>
+					</div>
+					<div class="item__info info">
+						<div class="info__line line">
+							<img class="line__icn" src="/img/icons/reaction-icons.png">
+							<p class="line__text">Отклики</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/watch-icons.png">
+							<p class="line__text">211 просмотров</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/like-icon.png">
+							<p class="line__text">В избранном</p>
+						</div>
+						<div class="info__line">
+							<img class="line__icn" src="/img/icons/recommend-icons.png">
+							<p class="line__text">Подходят</p>
+						</div>
+						<div class="info__line">
+							<div class="line-progress"></div>
+							<div class="line-progress-full"></div>
+							<div class="line-procent">48%</div>
+						</div>
+					</div>
+					<div class="item__buttons">
+						<button class="buttons__share"></button>
+						<button class="buttons__modify"></button>
+						<button class="buttons__save"></button>
+						<button class="buttons__settings"></button>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

@@ -219,16 +219,16 @@ hr {
 }
 
 .buttons__share {
-  background-image: url(/img/icons/arrow-icon.png);
+  background-image: url(img/icons/arrow-icon.png);
 }
 .buttons__modify {
-  background-image: url(/img/icons/pan-icon.png);
+  background-image: url(img/icons/pan-icon.png);
 }
 .buttons__save {
-  background-image: url(/img/icons/cloud-icon.png);
+  background-image: url(img/icons/cloud-icon.png);
 }
 .buttons__settings {
-  background-image: url(/img/icons/points-icon.png);
+  background-image: url(img/icons/points-icon.png);
 }
 
 .item__buttons {
